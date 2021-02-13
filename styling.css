@@ -1,0 +1,86 @@
+body
+{
+    font-family: 'Arvo', serif;/*Arvo, serif*/
+    background: url(https://freenaturestock.com/wp-content/uploads/freenaturestock-1675-768x512.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo
+{
+    height: 30px;
+}
+
+.navbar-inverse
+{
+    background: rgba(0,0,0,0.5);
+}
+
+.nav li
+{
+    color: white;
+    font-size: 17px;
+    margin-right: 35px;
+    padding: 10px 0;
+}
+
+.nav li:hover
+{
+    border-bottom: 1px solid #00ffb8;
+    padding-bottom: 9px;
+    cursor: pointer;
+}
+
+.jumbotron
+{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 2.5px;
+}
+.divimage
+{
+    text-align: center;
+    color: white;
+}
+.bodyimage
+{
+    height: 100px;
+}
+.icons p
+{
+    font-size: 15px;
+}
+.contact
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.btn
+{
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding: 10px 70px;
+    letter-spacing: 1.3px;
+}
+
+.btn:hover
+{
+    background-color: green;
+    color: white;
+    border: none;
+}
+/*697.200 rgba(0,255,184,0.5) rgba(0,0,0,0.5)*/
+@media(max-width: 500px)
+{
+    .bodyimage
+    {
+        height: 70px;
+    }
+}
