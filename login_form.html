@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login-form-style.css">
+    <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://www.google.com/" onsubmit="return passwordValidation()" method="get">
+            <div class="row">
+                <h2 style="text-align: center">login with social media or manually</h2>
+                <div class="v1">
+                    <span class="v1-innertext">or</span>
+                </div>
+                <div class="col">
+                    <a href="#" class="fb btn">
+                        <i class="fa fa-facebook fa-fw"></i>
+                        Login With Facebook
+                    </a>
+                    <a href="#" class="twitter btn">
+                        <i class="fa fa-twitter fa-fw"></i>
+                        Login With Twitter
+                    </a>
+                    <a href="#" class="google btn">
+                        <i class="fa fa-google fa-fw"></i>
+                        Login With Google
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="hide-md-lg">
+                        <p>Or Sign In Manually</p>
+                    </div>
+                    <input id="username" type="text" name="username" placeholder="Username" required>
+                    <input id="password" type="password" name="password" placeholder="Password" required>
+                    <label for="showpassword">Show Password</label>
+                    <input type="checkbox" name="showpassword" onclick="showPassword()">
+                    <input id="login" type="submit" value="LOGIN">
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="bottm-container">
+        <div class="row">
+            <div class="col">
+                <a href="#" style="color: white" class="btn">Sign Up</a>
+            </div>
+            <div class="col">
+                <a href="#" style="color: white" class="btn">Forget Password?</a>
+            </div>
+        </div>
+    </div>
+    <div id="message">
+        <h3>Password must contain the following:</h3>
+        <p id="lower" class="invalid">A <b>lowercase</b> letter</p>
+        <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+        <p id="number" class="invalid">A <b>number</b></p>
+        <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+    </div>
+    <script src="login_form_script.js"></script>
+</body>
+
+</html>
