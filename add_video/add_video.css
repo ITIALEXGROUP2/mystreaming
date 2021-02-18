@@ -1,0 +1,24 @@
+body {
+    background: url('imgs/body-bg.jpeg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.add-video-div,
+.submit_add_video_div {
+    opacity: 0.8;
+}
+
+div label {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1.8px;
+}
+
+input {
+    opacity: 0.5;
+}
+
+input:hover {
+    opacity: 0.8;
+}
